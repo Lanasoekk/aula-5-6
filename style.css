@@ -1,0 +1,48 @@
+header{
+    background-color: black;
+}
+
+nav ul{
+    box-sizing: border-box;
+    padding: 0%;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul a li{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+nav ul a:hover li{
+    cursor: pointer;
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+#topo-do-site {
+    color : white;
+    background-color: black ;
+    margin :  8px ;
+    padding :  8px ;
+    text-align: center;
+    font-style:helvetica;
+    
+}
+
+#rodape{
+    color: white;
+    background-color :  black ;
+    margin :  3px ;
+    text-align : center;
+    padding: 8px ; 
+}
+
+#corpo-da-pagina{
+color: black;
+image-rendering: 8px;
+border: 8px;
+background-color: gray;
+}
